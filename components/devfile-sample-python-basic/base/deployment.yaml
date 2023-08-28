@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/hacbs-release-tests/managed-release-team-tenant/simple-python/devfile-sample-python-basic@sha256:333ae0ee28387e0ad4c5805db623788ccf544fb149dd5d8a1a9ac9d3adea5d12
         name: my-python
         ports:
         - containerPort: 8081
